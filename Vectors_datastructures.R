@@ -16,7 +16,7 @@ vec_bool <-  c(TRUE, FALSE, TRUE)
 vec_bool
 class(vec_bool)
 
-vec_random <- c(1,3.0,TRUE)
+vec_random <- c(1,3.0,"TRUE")
 vec_random
 class(vec_random)
 
@@ -44,9 +44,9 @@ sum_vect
 slice_vector <- c(1,2,3,4,5,6,7,8,9,10)
 slice_vector[1:5]
 
-# Faster way to create a vector with adjacent values is:
+# Faster way to create a vector with adjacent value
 c(1:10)
-
+c(1:20)
 # Applying Logical Operators on Vectors:
 
 # Create a vector from 1 to 10
@@ -57,7 +57,7 @@ logical_vector[(logical_vector>5)]
 # Print 5 and 6
 logical_vector <- c(1:10)
 logical_vector[(logical_vector>4) & (logical_vector<7)]
-
+logical_vector[(logical_vector>2) & (logical_vector<8)]
 #access elements
 (x = seq(0,10,by=2))
 
@@ -78,7 +78,8 @@ x
 x[x<0] = 5; # modify elements less than 0
 x   
 x = x[1:4]; # truncate x to first 4 elements
-x      
+x 
+
 #delete vector
 (x = seq(1,5, length.out = 10))
 

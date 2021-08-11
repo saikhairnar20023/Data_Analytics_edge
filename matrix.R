@@ -79,7 +79,8 @@ m2[,2:3] # 2nd to 3rd coln
 m2[c(1,2),c(2,3)]
 m2[,]
 m2[-2,] # exclude 2nd row
-m2[1:8] # matrix is like vector
+m2[1:8]
+ # matrix is like vector
 m2[m2 > 5]
 
 #modify Vector

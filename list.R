@@ -31,6 +31,6 @@ my_list[[3]]
 
 my_list[[1]]
 
-komal<- my_list[[1]]
-komal
-komal[3]
+sai <- my_list[[1]]
+sai
+sai[3]

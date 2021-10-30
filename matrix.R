@@ -15,6 +15,7 @@ matrix_b
 # Print dimension of the matrix with dim()
 dim(matrix_b)
 
+
 # Construct a matrix with 5 rows that contain the numbers 1 up to 10 with byrow not mentioned.
 matrix_c <-matrix(1:10, nrow = 5)
 matrix_c
@@ -32,6 +33,8 @@ matrix_a1 <- cbind(matrix_a, c(1:5))
 dim(matrix_a1)
 matrix_a1
 
+
+matrix
 # Add a row to a Matrix with the rbind()
 # Append to the matrix
 matrix_a2 <- rbind(matrix_a, c(1:2))

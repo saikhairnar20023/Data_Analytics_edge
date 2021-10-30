@@ -33,6 +33,8 @@ d <- c(2.5, 8, 10, 7)
 # Join the variables to create a data frame
 df <- data.frame(a,b,c,d)
 df
+names(df)<-c('ID', 'items', 'store', 'price')
+df
 names(df)
 length(df) 
 dim(df)

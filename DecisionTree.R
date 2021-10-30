@@ -10,11 +10,13 @@ library("rpart.plot")
 #Read dataset----
 ?iris
 data("iris")
+View(iris)
 data_iris <- iris
 View(data_iris)
 
 #explore iris data set structure by str() command.
 str(iris)
+
 
 #Create training dataset and testing dataset----
 indexes = sample(150, 110)

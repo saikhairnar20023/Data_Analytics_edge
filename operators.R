@@ -18,6 +18,7 @@ head(df1)
 df2 <-df[order(-df$d),]
 head(df2)
 
+
 #sort, rank, order, sample using dataset "mtcars".
 head(mtcars)
 

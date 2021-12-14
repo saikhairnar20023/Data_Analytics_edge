@@ -60,7 +60,7 @@ logical_vector[(logical_vector>4) & (logical_vector<7)]
 logical_vector[(logical_vector>2) & (logical_vector<8)]
 #access elements
 (x = seq(0,10,by=2))
-
+(x= seq (0,40, by=4))
 x[3]  # access 3rd element
 
 x[c(2, 4)]     # access 2nd and 4th element

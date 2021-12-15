@@ -31,13 +31,14 @@ summary(df) #summary
 df[1,2]
 
 ## Select Rows 1 to 2
-df[1:2,]
+ 
 
 ## Select Columns 1
 df[,1]
 
 ## Select Rows 1 to 3 and columns 3 to 4
 df[1:3, 3:4]
+
 
 #It is also possible to select the columns with their names.
 ## Slice with columns name

@@ -35,6 +35,9 @@ x[3] <- my_list[1]
 x
 class(x)
 
+x[4] <- my_list[2]
+x
 #Example 3:
 x <- c(1:10,"a")
 class(x)
+

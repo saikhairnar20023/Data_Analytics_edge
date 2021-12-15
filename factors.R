@@ -11,6 +11,7 @@ factor_gender_vector <-factor(gender_vector)
 class(factor_gender_vector)
 table(gender_vector)
 
+
 # A categorical variable can be divided into 2 types:
 # nominal categorical variable and ordinal categorical variable.
 

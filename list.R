@@ -16,6 +16,10 @@ dim(mat)
 View(EuStockMarkets)
 df <- EuStockMarkets[1:10,]
 df
+?mtcars
+View(mtcars)
+df <- mtcars[1:20,]
+df
 #head(EuStockMarkets,n=10)
 # Construct list with these vec, mat, and df:
 my_list <- list(vect, mat, df)

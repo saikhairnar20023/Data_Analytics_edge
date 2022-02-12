@@ -25,6 +25,8 @@ class(vec_random)
 v1= 1:100
 class(v1) ; 
 typeof(v1)
+length(v1)
+
 
 v2=letters[1:10]
 class(v2) ; 
@@ -56,11 +58,11 @@ logical_vector>5
 logical_vector[(logical_vector>5)]
 # Print 5 and 6
 logical_vector <- c(1:10)
-logical_vector[(logical_vector>4) & (logical_vector<7)]
-logical_vector[(logical_vector>2) & (logical_vector<8)]
+logical_vector[(logical_vector>3) & (logical_vector<8)]
+logical_vector[(logical_vector>2) & (logical_vector<7)]
 #access elements
-(x = seq(0,10,by=2))
-(x= seq (0,40, by=4))
+(x = seq(0,20,by=2))
+(x= seq (0,60, by=6))
 x[3]  # access 3rd element
 
 x[c(2, 4)]     # access 2nd and 4th element

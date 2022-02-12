@@ -29,10 +29,7 @@ summary(df) #summary
 
 ## Select row 1 in column 2
 df[1,2]
-
-## Select Rows 1 to 2
  
-
 ## Select Columns 1
 df[,1]
 

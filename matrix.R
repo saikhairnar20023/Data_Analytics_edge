@@ -4,13 +4,13 @@
 # one with byrow = TRUE and one with byrow = FALSE to see the difference.
 
 #Construct a matrix with 5 rows that contain the numbers 1 up to 10 and byrow=TRUE 
-matrix_a <-matrix(1:10, byrow = TRUE, nrow = 2)
+matrix_a <-matrix(1:10, byrow = TRUE, nrow = 5)
 matrix_a
 # Print dimension of the matrix with dim()
 dim(matrix_a)
 
 # Construct a matrix with 5 rows that contain the numbers 1 up to 10 and byrow=FALSE
-matrix_b <-matrix(1:10, byrow = FALSE, nrow = 5)
+matrix_b <-matrix(1:10, byrow = FALSE, nrow = 2)
 matrix_b
 # Print dimension of the matrix with dim()
 dim(matrix_b)
@@ -37,7 +37,7 @@ matrix_a1
 
 # Add a row to a Matrix with the rbind()
 # Append to the matrix
-matrix_a2 <- rbind(matrix_a, c(1:5))
+matrix_a2 <- rbind(matrix_a, c(1:2))
 # Check the dimension
 dim(matrix_a2)
 matrix_a2

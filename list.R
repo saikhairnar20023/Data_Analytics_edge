@@ -8,7 +8,7 @@
 vect  <- c(1:5)
 
 #Creating a 2x 5 matrix
-mat  <- matrix(1:9, ncol = 4)
+mat  <- matrix(1:8, ncol = 4)
 dim(mat)
 
 # Creating a data frame by selecting the 10th row of the built-in R data set EuStockMarkets
@@ -16,11 +16,7 @@ dim(mat)
 View(EuStockMarkets)
 df <- EuStockMarkets[1:10,]
 df
-?mtcars
-View(mtcars)
-df <- mtcars[1:20,]
-df
-#head(EuStockMarkets,n=10)
+head(EuStockMarkets,n=10)
 # Construct list with these vec, mat, and df:
 my_list <- list(vect, mat, df)
 my_list

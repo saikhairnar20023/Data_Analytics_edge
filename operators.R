@@ -23,19 +23,25 @@ head(df2)
 head(mtcars)
 
 #sort by mpg
+mtcars$mpg
 sort(mtcars$mpg) # one column
 sort(mtcars$mpg, decreasing = T) # one column
 
 mtcars[order(mtcars$mpg),][1:5] #Sort DF by mpg
 
-mtcars[order(mtcars$cyl, mtcars$mpg), c('cyl','mpg','wt')] #Sort DF by cyl, mpg
+mtcars[order(mtcars$cyl, mtcars$mpg, mtcars$wt), c('cyl','mpg','wt')] #Sort DF by cyl, mpg
 
 mtcars[order(mtcars$cyl, -mtcars$mpg), c('cyl','mpg','wt')] # desc mpg
+mtcars[order(mtcars$wt,mtcars$cyl), c('wt','cyl')] #Sort DF by cyl, mpg
 
 # rank():
 x=c(1,2,36,3)
 rank(x)
+
+y=c(12,13,12,20,25,25)
+rank(y)
+rank(y, ties.method = 'min')
 rank(mtcars$mpg, ties.method = 'min')
-# rank(mtcars$mpg, ties.method = 'max')
+rank(mtcars$mpg, ties.method = 'max')
 rorder =cbind(mtcars$mpg, rank(mtcars$mpg, ties.method = 'max'))
 rorder

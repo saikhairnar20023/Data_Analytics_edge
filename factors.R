@@ -22,7 +22,7 @@ color_vector <- c('blue', 'red', 'green', 'white', 'black', 'yellow')
 # Convert the vector to factor
 factor_color <- factor(color_vector)
 factor_color
-
+class(factor_color)
 #Ordinal categorical variables do have a natural ordering. 
 #We can specify the order here, 
 # from the lowest to the highest with order = TRUE and 

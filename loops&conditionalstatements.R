@@ -19,7 +19,8 @@ if (quantity > 20) {
 # Create vector quantiy
 quantity <-  10
 # Create multiple condition statement
-if (quantity <20) {
+if (quantity <20)
+  {
   print('Not enough for today')
 } else if (quantity > 20  &quantity <= 30) {
   print('Average day')
@@ -36,7 +37,8 @@ if (quantity <20) {
 # Create fruit vector
 fruit <- c('Apple', 'Orange', 'Passion fruit', 'Banana')
 # Create the for statement
-for ( i in fruit){ 
+for ( i in fruit)
+  { 
   print(i)
 }
 
@@ -46,7 +48,7 @@ for ( i in fruit){
 # one for the rows and another for the column.
 
 # Create a matrix
-mat <- matrix(data = seq(1, 18, by=1), nrow = 6, ncol =3)
+mat <- matrix(1:18, nrow = 6, ncol =3)
 
 # Create the loop with r and c to iterate over the matrix
 for (r in 1:nrow(mat))   
@@ -71,7 +73,8 @@ for (p in fruit)
 #Create a variable with value 1
 begin <- 1
 #Create the loop
-while (begin <= 3){
+while (begin <= 3)
+  {
   #See which we are  
   cat('This is loop number',begin)
   #add 1 to the variable begin after each loop
@@ -84,7 +87,8 @@ while (begin <= 3){
 #Create a variable with value 1
 begin <- 1
 #Create the loop
-while (begin <= 3){
+while (begin <= 3)
+  {
   #See which we are  
   cat('This is loop number',begin)
   #add 1 to the variable begin after each loop

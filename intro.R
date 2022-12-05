@@ -1,7 +1,8 @@
-#Intro
-print("Welcome to R Programming")
-a <-("Hello")
+#intro
+print("Hello world")
+print("Welcome to R")
+a <-(print("Hello Sai"))
 a
-X = 1:5
-Y = 6:10
-plot(X,Y)
+x=1:5
+y=6:10
+plot(x,y)
